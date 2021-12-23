@@ -1,0 +1,68 @@
+/* body {
+    background-color: navy;
+} */
+
+.bg {
+    background-color: #efccff;
+}
+
+.btn-x {
+    border: none;
+    background-color: whitesmoke;
+    font-weight: 400;
+    border-radius: 10%;
+    padding: 3px 8px;
+    transition: all 0.4s ease;
+    color: #efccff;
+}
+
+.btn-x:hover {
+    color: whitesmoke;
+    background-color: #d47cfd;
+}
+
+.btn-x:active {
+    transform: translateX(0.5px) translateY(2px);
+}
+
+.form-my {
+    margin: 0 15px 0 15px;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.3);
+}
+
+.form-my:focus {
+    outline: none;
+}
+
+.orange-bg {
+    background-color: #feeae9;
+    border-radius: 10px;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.h1 {
+    color: rgb(105, 28, 105);
+}
+
+.btn-nx {
+    border: none;
+    background-color: rgb(105, 28, 105);
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+.btn-nx:active {
+    transform: translateY(2px);
+}
